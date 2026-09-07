@@ -1,43 +1,3062 @@
-<!-- CONTACT -->
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="contact" id="contact">
+<head>
 
-<h2>
-Let's make<br>
-something meaningful.
-</h2>
+<meta charset="UTF-8">
 
-<p>
-Have an organization, small business,
-event or creative idea that needs
-a little extra light?
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Let's talk. ✨
-</p>
+<meta name="description" content="Olivia Lee - Creative Marketing, Social Media, Branding, Events and Community Outreach">
 
-<div class="contact-buttons">
+<title>Olivia Lee | Creative Marketing</title>
 
-<a href="mailto:olivialee1026@yahoo.com"
-class="button primary">
-Email Me ✉
-</a>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<a href="tel:8067837788"
-class="button secondary">
-Call Me ☎
-</a>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-</div>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Patrick+Hand&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-<div style="
-margin-top:30px;
-font-family:'Patrick Hand',cursive;
-font-size:1.3rem;
-color:var(--gold-light);
-">
 
-✦ olivialee1026@yahoo.com &nbsp; • &nbsp; 806-783-7788 ✦
+<style>
 
-</div>
+/* =========================================
+   OLIVIA LEE
+   CREATIVE MARKETING PORTFOLIO
+   ========================================= */
+
+
+/* ---------- COLORS ---------- */
+
+:root {
+
+    --cherry: #a9002b;
+
+    --dark-cherry: #72001d;
+
+    --pink: #f3a8c0;
+
+    --light-pink: #ffdce8;
+
+    --pale-pink: #fff1f6;
+
+    --cream: #fff9ec;
+
+    --gold: #d7a52b;
+
+    --gold-light: #f7d878;
+
+    --denim: #5f83a2;
+
+    --denim-light: #789ab6;
+
+    --denim-dark: #405f79;
+
+    --dark: #30272b;
+
+    --white: #ffffff;
+
+}
+
+
+/* ---------- RESET ---------- */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    background: var(--cream);
+
+    color: var(--dark);
+
+    font-family: "DM Sans", sans-serif;
+
+    overflow-x: hidden;
+
+    background-image:
+
+        radial-gradient(#e4bdca 1px, transparent 1px);
+
+    background-size: 19px 19px;
+
+}
+
+
+img {
+
+    max-width: 100%;
+
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 999;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px 7%;
+
+    background: rgba(169, 0, 43, 0.98);
+
+    border-bottom: 3px solid var(--gold);
+
+    box-shadow: 0 4px 0 rgba(114, 0, 29, 0.2);
+
+}
+
+
+.logo {
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 2.2rem;
+
+    color: white;
+
+    transform: rotate(-3deg);
+
+}
+
+
+.logo::before {
+
+    content: "✦ ";
+
+    color: var(--gold-light);
+
+}
+
+
+.logo::after {
+
+    content: " ✦";
+
+    color: var(--gold-light);
+
+}
+
+
+.nav-links {
+
+    display: flex;
+
+    gap: 28px;
+
+    list-style: none;
+
+}
+
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: .2s;
+
+}
+
+
+.nav-links a:hover {
+
+    color: var(--gold-light);
+
+}
+
+
+/* ---------- GENERAL ---------- */
+
+section {
+
+    padding: 100px 7%;
+
+}
+
+
+.section-heading {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+
+.section-heading .tiny {
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.5rem;
+
+    color: var(--cherry);
+
+}
+
+
+.section-heading h2 {
+
+    margin-top: 5px;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(2.7rem, 6vw, 4.8rem);
+
+    color: var(--cherry);
+
+}
+
+
+.section-heading h2::before {
+
+    content: "✦ ";
+
+    color: var(--gold);
+
+}
+
+
+.section-heading h2::after {
+
+    content: " ✦";
+
+    color: var(--gold);
+
+}
+
+
+.button {
+
+    display: inline-block;
+
+    padding: 13px 25px;
+
+    border-radius: 30px;
+
+    border: 2px solid var(--dark-cherry);
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: .25s;
+
+}
+
+
+.button:hover {
+
+    transform: translateY(-5px) rotate(-2deg);
+
+}
+
+
+.primary {
+
+    background: var(--cherry);
+
+    color: white;
+
+    box-shadow: 5px 5px 0 var(--gold);
+
+}
+
+
+.secondary {
+
+    background: white;
+
+    color: var(--cherry);
+
+}
+
+
+/* ---------- HERO ---------- */
+
+.hero {
+
+    min-height: 91vh;
+
+    padding: 75px 7%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            #ffd8e5,
+
+            #fff1d8 50%,
+
+            #f4b7ca
+
+        );
+
+}
+
+
+.hero::before {
+
+    content: "✦";
+
+    position: absolute;
+
+    top: 8%;
+
+    left: 4%;
+
+    font-size: 5rem;
+
+    color: var(--gold);
+
+    opacity: .7;
+
+}
+
+
+.hero::after {
+
+    content: "✧";
+
+    position: absolute;
+
+    right: 4%;
+
+    bottom: 12%;
+
+    font-size: 6rem;
+
+    color: var(--gold);
+
+    opacity: .7;
+
+}
+
+
+.hero-content {
+
+    width: 56%;
+
+    position: relative;
+
+    z-index: 5;
+
+}
+
+
+.hero-label {
+
+    display: inline-block;
+
+    background: var(--gold-light);
+
+    color: var(--dark-cherry);
+
+    padding: 9px 17px;
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.2rem;
+
+    transform: rotate(-3deg);
+
+    box-shadow: 4px 4px 0 var(--cherry);
+
+}
+
+
+.hero h1 {
+
+    margin-top: 25px;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(4rem, 10vw, 9rem);
+
+    line-height: .82;
+
+    color: var(--cherry);
+
+    transform: rotate(-2deg);
+
+    text-shadow:
+
+        4px 4px white,
+
+        8px 8px var(--pink);
+
+}
+
+
+.hero h1 span {
+
+    display: block;
+
+}
+
+
+.hero-description {
+
+    max-width: 650px;
+
+    margin-top: 35px;
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+
+}
+
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
+}
+
+
+/* ---------- HERO ART ---------- */
+
+.hero-art {
+
+    width: 40%;
+
+    min-height: 500px;
+
+    position: relative;
+
+}
+
+
+.flower {
+
+    position: absolute;
+
+    font-size: 4rem;
+
+}
+
+
+.flower-one {
+
+    top: 5%;
+
+    left: 5%;
+
+    transform: rotate(-15deg);
+
+}
+
+
+.flower-two {
+
+    bottom: 4%;
+
+    right: 4%;
+
+    transform: rotate(17deg);
+
+}
+
+
+.sparkle {
+
+    position: absolute;
+
+    font-size: 2.5rem;
+
+    color: var(--gold);
+
+}
+
+
+.sparkle-one {
+
+    top: 12%;
+
+    right: 13%;
+
+}
+
+
+.sparkle-two {
+
+    bottom: 28%;
+
+    left: 0;
+
+}
+
+
+.cherries {
+
+    position: absolute;
+
+    right: 5%;
+
+    top: 7%;
+
+    font-size: 4.5rem;
+
+    transform: rotate(8deg);
+
+}
+
+
+/* ---------- SUNGLASSES ---------- */
+
+.sunglasses {
+
+    position: absolute;
+
+    top: 25%;
+
+    left: 18%;
+
+    width: 240px;
+
+    height: 110px;
+
+    transform: rotate(8deg);
+
+}
+
+
+.glass {
+
+    position: absolute;
+
+    width: 95px;
+
+    height: 68px;
+
+    border: 8px solid var(--dark-cherry);
+
+    border-radius: 20px 20px 35px 35px;
+
+    background: rgba(243,168,192,.75);
+
+}
+
+
+.glass-left {
+
+    left: 0;
+
+}
+
+
+.glass-right {
+
+    right: 0;
+
+}
+
+
+.bridge {
+
+    position: absolute;
+
+    width: 55px;
+
+    height: 8px;
+
+    left: 92px;
+
+    top: 31px;
+
+    background: var(--dark-cherry);
+
+}
+
+
+/* ---------- ABOUT ---------- */
+
+.about {
+
+    background: white;
+
+}
+
+
+.about-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+}
+
+
+.about-paper {
+
+    background: #fffdf8;
+
+    padding: 45px;
+
+    border: 2px solid #e6ccd4;
+
+    box-shadow:
+
+        10px 10px 0 var(--pink),
+
+        18px 18px 0 var(--gold-light);
+
+    transform: rotate(-1deg);
+
+}
+
+
+.about-paper h3 {
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 2.5rem;
+
+    color: var(--cherry);
+
+    margin-bottom: 20px;
+
+}
+
+
+.about-paper p {
+
+    line-height: 1.8;
+
+    margin-bottom: 18px;
+
+}
+
+
+/* ---------- DENIM POCKET ---------- */
+
+.denim {
+
+    min-height: 470px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+
+        repeating-linear-gradient(
+
+            45deg,
+
+            rgba(255,255,255,.07) 0px,
+
+            rgba(255,255,255,.07) 2px,
+
+            transparent 2px,
+
+            transparent 7px
+
+        ),
+
+        var(--denim);
+
+    border: 5px solid var(--denim-dark);
+
+    border-radius: 12px;
+
+    box-shadow: 12px 12px 0 var(--pink);
+
+    transform: rotate(3deg);
+
+}
+
+
+.denim-title {
+
+    position: absolute;
+
+    top: 30px;
+
+    left: 30px;
+
+    color: white;
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.8rem;
+
+    transform: rotate(-4deg);
+
+}
+
+
+.denim-pocket {
+
+    position: absolute;
+
+    width: 245px;
+
+    height: 185px;
+
+    bottom: 55px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: var(--denim-light);
+
+    border: 4px solid var(--denim-dark);
+
+    border-radius: 12px 12px 45px 45px;
+
+}
+
+
+.denim-pocket::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 16px;
+
+    border: 3px dashed #d0dfea;
+
+    border-radius: 7px 7px 30px 30px;
+
+}
+
+
+.denim-note {
+
+    position: absolute;
+
+    left: 45px;
+
+    bottom: 215px;
+
+    padding: 18px;
+
+    background: var(--gold-light);
+
+    color: var(--dark-cherry);
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.3rem;
+
+    transform: rotate(-7deg);
+
+    box-shadow: 4px 4px 0 var(--cherry);
+
+    z-index: 4;
+
+}
+
+
+/* ---------- EXPERIENCE ---------- */
+
+.experience {
+
+    background: var(--pale-pink);
+
+}
+
+
+.experience-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 30px;
+
+}
+
+
+.experience-card {
+
+    background: white;
+
+    padding: 32px;
+
+    border: 2px solid var(--cherry);
+
+    box-shadow: 7px 7px 0 var(--gold);
+
+}
+
+
+.experience-card:nth-child(2) {
+
+    transform: rotate(2deg);
+
+}
+
+
+.experience-card:nth-child(3) {
+
+    transform: rotate(-2deg);
+
+}
+
+
+.experience-icon {
+
+    font-size: 3rem;
+
+}
+
+
+.experience-card h3 {
+
+    margin: 15px 0 10px;
+
+    font-family: "Playfair Display", serif;
+
+    color: var(--cherry);
+
+}
+
+
+.experience-card p {
+
+    line-height: 1.7;
+
+}
+
+
+/* ---------- SERVICES ---------- */
+
+.services {
+
+    background: var(--cream);
+
+}
+
+
+.services-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 25px;
+
+}
+
+
+.service {
+
+    min-height: 245px;
+
+    padding: 32px;
+
+    border: 2px solid var(--cherry);
+
+    border-radius: 15px;
+
+    background: white;
+
+    box-shadow: 5px 5px 0 var(--pink);
+
+}
+
+
+.service:nth-child(even) {
+
+    background: var(--pale-pink);
+
+}
+
+
+.service-icon {
+
+    font-size: 2.8rem;
+
+}
+
+
+.service h3 {
+
+    margin: 15px 0;
+
+    font-family: "Playfair Display", serif;
+
+    color: var(--cherry);
+
+}
+
+
+.service p {
+
+    line-height: 1.65;
+
+}
+
+
+/* ---------- PORTFOLIO ---------- */
+
+.portfolio {
+
+    background: white;
+
+}
+
+
+.portfolio-intro {
+
+    max-width: 700px;
+
+    margin: -30px auto 65px;
+
+    text-align: center;
+
+    line-height: 1.8;
+
+}
+
+
+.portfolio-grid {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 70px 45px;
+
+}
+
+
+.polaroid {
+
+    position: relative;
+
+    background: #fffdf8;
+
+    padding: 15px 15px 35px;
+
+    border: 2px solid var(--cherry);
+
+    box-shadow: 8px 9px 0 var(--pink);
+
+    transition: .3s;
+
+}
+
+
+.polaroid:nth-child(1) {
+
+    transform: rotate(-3deg);
+
+}
+
+
+.polaroid:nth-child(2) {
+
+    transform: rotate(2deg);
+
+}
+
+
+.polaroid:nth-child(3) {
+
+    transform: rotate(2deg);
+
+}
+
+
+.polaroid:nth-child(4) {
+
+    transform: rotate(-2deg);
+
+}
+
+
+.polaroid:hover {
+
+    transform: rotate(0) translateY(-10px) scale(1.02);
+
+}
+
+
+.tape {
+
+    position: absolute;
+
+    width: 105px;
+
+    height: 31px;
+
+    top: -15px;
+
+    left: 50%;
+
+    transform: translateX(-50%) rotate(-3deg);
+
+    background: rgba(247,216,120,.9);
+
+    z-index: 5;
+
+}
+
+
+.portfolio-image {
+
+    width: 100%;
+
+    height: 340px;
+
+    object-fit: cover;
+
+    display: block;
+
+    background: #eee;
+
+}
+
+
+.project-tag {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    background: var(--gold-light);
+
+    color: var(--dark-cherry);
+
+    font-size: .8rem;
+
+    font-weight: 700;
+
+}
+
+
+.polaroid h3 {
+
+    margin-top: 10px;
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 2.2rem;
+
+    color: var(--cherry);
+
+}
+
+
+.polaroid p {
+
+    margin-top: 5px;
+
+    color: #66585d;
+
+    line-height: 1.6;
+
+}
+
+
+/* ---------- ACHIEVEMENTS ---------- */
+
+.achievements {
+
+    position: relative;
+
+    overflow: hidden;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            #ffd6e4,
+
+            #fff8e9
+
+        );
+
+}
+
+
+.achievements::before {
+
+    content: "✦";
+
+    position: absolute;
+
+    left: 5%;
+
+    top: 12%;
+
+    font-size: 5rem;
+
+    color: var(--gold);
+
+    opacity: .65;
+
+}
+
+
+.achievements::after {
+
+    content: "✧";
+
+    position: absolute;
+
+    right: 6%;
+
+    bottom: 10%;
+
+    font-size: 6rem;
+
+    color: var(--gold);
+
+    opacity: .65;
+
+}
+
+
+.achievement-stars {
+
+    text-align: center;
+
+    color: var(--gold);
+
+    font-size: 2rem;
+
+    letter-spacing: 12px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.achievements-intro {
+
+    max-width: 700px;
+
+    margin: -25px auto 60px;
+
+    text-align: center;
+
+    line-height: 1.8;
+
+}
+
+
+.achievement-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 35px;
+
+}
+
+
+.achievement {
+
+    position: relative;
+
+    text-align: center;
+
+    padding: 35px 25px;
+
+    background: rgba(255,255,255,.9);
+
+    border: 2px solid var(--gold);
+
+    box-shadow: 7px 7px 0 var(--cherry);
+
+    transition: .3s;
+
+}
+
+
+.achievement:hover {
+
+    transform: translateY(-8px) rotate(1deg);
+
+}
+
+
+.gold-star {
+
+    width: 130px;
+
+    height: 130px;
+
+    margin: 0 auto 20px;
+
+    background: var(--gold-light);
+
+    clip-path:
+
+        polygon(
+
+            50% 0%,
+
+            61% 35%,
+
+            98% 35%,
+
+            68% 57%,
+
+            79% 94%,
+
+            50% 72%,
+
+            21% 94%,
+
+            32% 57%,
+
+            2% 35%,
+
+            39% 35%
+
+        );
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: var(--dark-cherry);
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.15rem;
+
+    line-height: 1.1;
+
+    padding: 20px;
+
+}
+
+
+.achievement h3 {
+
+    font-family: "Playfair Display", serif;
+
+    color: var(--cherry);
+
+    font-size: 1.5rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.achievement p {
+
+    line-height: 1.65;
+
+}
+
+
+.achievement-label {
+
+    display: inline-block;
+
+    margin-bottom: 15px;
+
+    padding: 5px 12px;
+
+    background: var(--light-pink);
+
+    border-radius: 20px;
+
+    color: var(--cherry);
+
+    font-size: .8rem;
+
+    font-weight: 700;
+
+}
+
+
+/* ---------- PROCESS ---------- */
+
+.process {
+
+    background: var(--cream);
+
+}
+
+
+.process-grid {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 20px;
+
+}
+
+
+.process-step {
+
+    text-align: center;
+
+}
+
+
+.process-number {
+
+    width: 70px;
+
+    height: 70px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: var(--gold-light);
+
+    border: 2px solid var(--cherry);
+
+    color: var(--cherry);
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.8rem;
+
+}
+
+
+.process-step h3 {
+
+    margin: 15px 0 8px;
+
+    font-family: "Playfair Display", serif;
+
+    color: var(--cherry);
+
+}
+
+
+.process-step p {
+
+    line-height: 1.6;
+
+}
+
+
+/* ---------- CONTACT ---------- */
+
+.contact {
+
+    background: var(--dark-cherry);
+
+    color: white;
+
+    text-align: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+.contact::before {
+
+    content: "✦ ✧ ✦ ✧ ✦";
+
+    position: absolute;
+
+    top: 25px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: var(--gold-light);
+
+    font-size: 1.8rem;
+
+}
+
+
+.contact h2 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(3rem,7vw,6rem);
+
+    color: var(--light-pink);
+
+}
+
+
+.contact p {
+
+    max-width: 650px;
+
+    margin: 25px auto;
+
+    line-height: 1.8;
+
+    font-size: 1.1rem;
+
+}
+
+
+.contact-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+
+}
+
+
+.contact-info {
+
+    margin-top: 35px;
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.35rem;
+
+    color: var(--gold-light);
+
+}
+
+
+.contact-info span {
+
+    display: inline-block;
+
+    margin: 7px 15px;
+
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    background: #510016;
+
+    color: white;
+
+    padding: 35px 7%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    border-top: 4px solid var(--gold);
+
+}
+
+
+.footer-logo {
+
+    font-family: "Patrick Hand", cursive;
+
+    font-size: 1.8rem;
+
+    color: var(--gold-light);
+
+}
+
+
+.footer-contact a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+.footer-contact a:hover {
+
+    color: var(--pink);
+
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:850px) {
+
+    nav {
+
+        justify-content: center;
+
+    }
+
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+
+    .hero {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .hero-content {
+
+        width: 100%;
+
+    }
+
+
+    .hero-art {
+
+        width: 100%;
+
+        min-height: 400px;
+
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .experience-grid,
+
+    .services-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .portfolio-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .achievement-grid {
+
+        grid-template-columns: 1fr;
+
+        max-width: 500px;
+
+    }
+
+
+    .process-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+
+@media(max-width:500px) {
+
+    section {
+
+        padding: 75px 6%;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 4.5rem;
+
+    }
+
+
+    .hero-art {
+
+        min-height: 350px;
+
+    }
+
+
+    .sunglasses {
+
+        transform: scale(.8) rotate(8deg);
+
+        left: 7%;
+
+    }
+
+
+    .about-paper {
+
+        padding: 30px;
+
+    }
+
+
+    .portfolio-image {
+
+        height: 270px;
+
+    }
+
+
+    .process-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    footer {
+
+        text-align: center;
+
+        justify-content: center;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVIGATION
+     ========================================= -->
+
+<nav>
+
+    <div class="logo">
+        Olivia Lee
+    </div>
+
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+            <a href="#services">Services</a>
+        </li>
+
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+
+        <li>
+            <a href="#achievements">Achievements</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+
+<!-- =========================================
+     HERO
+     ========================================= -->
+
+<section class="hero">
+
+
+    <div class="hero-content">
+
+
+        <div class="hero-label">
+
+            creative marketing • community • storytelling
+
+        </div>
+
+
+        <h1>
+
+            Olivia
+
+            <span>Lee.</span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Creative marketing, social media, events,
+            branding and community outreach —
+            with a little more color, personality
+            and purpose.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#portfolio"
+                class="button primary"
+            >
+                See My Work ✦
+            </a>
+
+
+            <a
+                href="#contact"
+                class="button secondary"
+            >
+                Let's Create
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- HERO SCRAPBOOK ART -->
+
+    <div class="hero-art">
+
+
+        <div class="flower flower-one">
+            🌸
+        </div>
+
+
+        <div class="flower flower-two">
+            🌼
+        </div>
+
+
+        <div class="sparkle sparkle-one">
+            ✦
+        </div>
+
+
+        <div class="sparkle sparkle-two">
+            ✧
+        </div>
+
+
+        <div class="cherries">
+            🍒
+        </div>
+
+
+        <!-- Sunglasses -->
+
+        <div class="sunglasses">
+
+            <div class="glass glass-left"></div>
+
+            <div class="glass glass-right"></div>
+
+            <div class="bridge"></div>
+
+        </div>
+
+
+        <div
+            class="flower"
+            style="bottom:5%;left:15%;"
+        >
+            🌿
+        </div>
+
+
+        <div
+            class="flower"
+            style="top:50%;right:2%;font-size:2.5rem;"
+        >
+            ✿
+        </div>
+
+
+    </div>
+
 
 </section>
+
+
+
+<!-- =========================================
+     ABOUT
+     ========================================= -->
+
+<section
+    class="about"
+    id="about"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            a little about me ✿
+
+        </div>
+
+
+        <h2>
+
+            Behind the Lights
+
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="about-grid">
+
+
+        <!-- PAPER -->
+
+        <div class="about-paper">
+
+
+            <h3>
+
+                Hi, I'm Olivia! 💗
+
+            </h3>
+
+
+            <p>
+
+                I'm a creative marketer and
+                community-focused storyteller who
+                loves turning ideas into things people
+                actually want to see, share and connect with.
+
+            </p>
+
+
+            <p>
+
+                My work lives somewhere between
+                social media, psychology, events,
+                branding, storytelling and meaningful
+                community work.
+
+            </p>
+
+
+            <p>
+
+                Throughout high school, I volunteered
+                and participated in community service.
+                I've continued building connections
+                through local organizations and
+                community initiatives.
+
+            </p>
+
+
+            <p>
+
+                I also partner with Volunteer Lubbock
+                and have continued looking for ways
+                to connect creative work with
+                community impact.
+
+            </p>
+
+
+            <p>
+
+                I'm especially passionate about helping
+                organizations feel more approachable,
+                engaging and connected to the people
+                they serve.
+
+            </p>
+
+
+            <p>
+
+                I believe good marketing shouldn't
+                just look pretty.
+
+                <strong>
+                    It should make people feel something.
+                </strong>
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- DENIM POCKET -->
+
+        <div class="denim">
+
+
+            <div class="denim-title">
+
+                OLIVIA'S CREATIVE POCKET ✿
+
+            </div>
+
+
+            <div class="denim-note">
+
+                little ideas<br>
+
+                can make a<br>
+
+                BIG impact ✨
+
+            </div>
+
+
+            <div class="denim-pocket"></div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     EXPERIENCE
+     ========================================= -->
+
+<section
+    class="experience"
+    id="experience"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            places I've made an impact ✿
+
+        </div>
+
+
+        <h2>
+
+            Experience
+
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="experience-grid">
+
+
+        <!-- NAMI -->
+
+        <div class="experience-card">
+
+
+            <div class="experience-icon">
+                🧠
+            </div>
+
+
+            <h3>
+                NAMI
+            </h3>
+
+
+            <p>
+
+                Social media, community outreach,
+                event planning, advocacy, marketing
+                and helping create a stronger local
+                mental health presence.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- VOLUNTEER LUBBOCK -->
+
+        <div class="experience-card">
+
+
+            <div class="experience-icon">
+                🤝
+            </div>
+
+
+            <h3>
+                Volunteer Lubbock
+            </h3>
+
+
+            <p>
+
+                Partnering with Volunteer Lubbock
+                and building connections around
+                community service, volunteer
+                opportunities and local involvement.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- VOLUNTEERING -->
+
+        <div class="experience-card">
+
+
+            <div class="experience-icon">
+                🌷
+            </div>
+
+
+            <h3>
+                Community Service
+            </h3>
+
+
+            <p>
+
+                Volunteering throughout high school
+                and continuing to seek meaningful
+                ways to give back, connect people
+                and support local organizations.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     SERVICES
+     ========================================= -->
+
+<section
+    class="services"
+    id="services"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            what I can help you create ✦
+
+        </div>
+
+
+        <h2>
+
+            Creative Services
+
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="services-grid">
+
+
+        <!-- SOCIAL MEDIA -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                📱
+            </div>
+
+            <h3>
+                Social Media
+            </h3>
+
+            <p>
+
+                Content planning, captions,
+                Reels, posts, engagement and
+                social media strategy.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- BRANDING -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                🎨
+            </div>
+
+            <h3>
+                Branding & Design
+            </h3>
+
+            <p>
+
+                Canva graphics, flyers, social
+                content, branding concepts and
+                visual storytelling.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- EVENTS -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                🎪
+            </div>
+
+            <h3>
+                Events
+            </h3>
+
+            <p>
+
+                Event concepts, promotion,
+                coordination and community
+                engagement.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- CONTENT -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                📸
+            </div>
+
+            <h3>
+                Content Creation
+            </h3>
+
+            <p>
+
+                Photo ideas, video concepts,
+                Reels, behind-the-scenes
+                content and storytelling.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- OUTREACH -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                📣
+            </div>
+
+            <h3>
+                Outreach
+            </h3>
+
+            <p>
+
+                Partnerships, networking,
+                campaigns, tabling and
+                audience engagement.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- CREATIVE STRATEGY -->
+
+        <div class="service">
+
+            <div class="service-icon">
+                💡
+            </div>
+
+            <h3>
+                Creative Strategy
+            </h3>
+
+            <p>
+
+                Turning an idea into an
+                organized, creative and
+                actionable plan.
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     PORTFOLIO
+     ========================================= -->
+
+<section
+    class="portfolio"
+    id="portfolio"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            welcome to my creative scrapbook ✿
+
+        </div>
+
+
+        <h2>
+
+            Featured Work
+
+        </h2>
+
+
+    </div>
+
+
+
+    <p class="portfolio-intro">
+
+        A little collection of branding,
+        events, social media and community
+        work I've created and contributed to.
+
+    </p>
+
+
+
+    <div class="portfolio-grid">
+
+
+        <!-- BRANDING -->
+
+        <div class="polaroid">
+
+
+            <div class="tape"></div>
+
+
+            <img
+                src="IMG_0488.png"
+                alt="Olivia Lee branding project"
+                class="portfolio-image"
+            >
+
+
+            <span class="project-tag">
+
+                BRANDING
+
+            </span>
+
+
+            <h3>
+
+                Branding
+
+            </h3>
+
+
+            <p>
+
+                Visual identity • Creative direction
+                • Design • Storytelling
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- EVENTS -->
+
+        <div class="polaroid">
+
+
+            <div class="tape"></div>
+
+
+            <img
+                src="IMG_3987.jpeg"
+                alt="Olivia Lee events project"
+                class="portfolio-image"
+            >
+
+
+            <span class="project-tag">
+
+                EVENTS
+
+            </span>
+
+
+            <h3>
+
+                Events
+
+            </h3>
+
+
+            <p>
+
+                Event promotion • Planning
+                • Community engagement
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- SOCIAL MEDIA -->
+
+        <div class="polaroid">
+
+
+            <div class="tape"></div>
+
+
+            <img
+                src="IMG_3988.png"
+                alt="Olivia Lee social media project"
+                class="portfolio-image"
+            >
+
+
+            <span class="project-tag">
+
+                SOCIAL MEDIA
+
+            </span>
+
+
+            <h3>
+
+                Social Media
+
+            </h3>
+
+
+            <p>
+
+                Content creation • Social strategy
+                • Creative design
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- NAMI -->
+
+        <div class="polaroid">
+
+
+            <div class="tape"></div>
+
+
+            <img
+                src="IMG_3989.jpeg"
+                alt="Olivia Lee NAMI project"
+                class="portfolio-image"
+            >
+
+
+            <span class="project-tag">
+
+                NAMI
+
+            </span>
+
+
+            <h3>
+
+                NAMI
+
+            </h3>
+
+
+            <p>
+
+                Mental health advocacy • Outreach
+                • Social media • Community
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     ACHIEVEMENTS
+     ========================================= -->
+
+<section
+    class="achievements"
+    id="achievements"
+>
+
+
+    <div class="achievement-stars">
+
+        ★ ✦ ★ ✦ ★
+
+    </div>
+
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            little things I'm proud of ✨
+
+        </div>
+
+
+        <h2>
+
+            Achievements
+
+        </h2>
+
+
+    </div>
+
+
+
+    <p class="achievements-intro">
+
+        Creativity has always been one of the
+        ways I connect with people and make
+        an impact. Here are a few accomplishments
+        I'm especially proud to have earned
+        along the way. 💗
+
+    </p>
+
+
+
+    <div class="achievement-grid">
+
+
+        <!-- FIRST PLACE -->
+
+        <div class="achievement">
+
+
+            <div class="gold-star">
+
+                1ST<br>
+                PLACE
+
+            </div>
+
+
+            <span class="achievement-label">
+
+                ART + MENTAL HEALTH
+
+            </span>
+
+
+            <h3>
+
+                Mental Illness Art Contest
+
+            </h3>
+
+
+            <p>
+
+                Won 1st place in a mental illness
+                art contest, using creativity to
+                help bring awareness and
+                conversation to mental health.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- THEATRICAL MARKETING -->
+
+        <div class="achievement">
+
+
+            <div class="gold-star">
+
+                3RD<br>
+                IN STATE
+
+            </div>
+
+
+            <span class="achievement-label">
+
+                THEATRICAL MARKETING
+
+            </span>
+
+
+            <h3>
+
+                State Competition
+
+            </h3>
+
+
+            <p>
+
+                Placed 3rd in the state for
+                theatrical marketing, combining
+                creativity, storytelling, promotion
+                and visual communication.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- SCHOOL CAMPAIGN -->
+
+        <div class="achievement">
+
+
+            <div class="gold-star">
+
+                BEST<br>
+                CAMPAIGN
+
+            </div>
+
+
+            <span class="achievement-label">
+
+                SCHOOL ORGANIZATION
+
+            </span>
+
+
+            <h3>
+
+                Best School Org Campaign
+
+            </h3>
+
+
+            <p>
+
+                Earned Best School Organization
+                Campaign in the county for creating
+                an engaging campaign that brought
+                people together.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     PROCESS
+     ========================================= -->
+
+<section class="process">
+
+
+    <div class="section-heading">
+
+
+        <div class="tiny">
+
+            how we make the magic happen ✨
+
+        </div>
+
+
+        <h2>
+
+            My Process
+
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="process-grid">
+
+
+        <div class="process-step">
+
+
+            <div class="process-number">
+
+                01
+
+            </div>
+
+
+            <h3>
+
+                Brainstorm
+
+            </h3>
+
+
+            <p>
+
+                We figure out the idea,
+                audience and goals.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="process-step">
+
+
+            <div class="process-number">
+
+                02
+
+            </div>
+
+
+            <h3>
+
+                Plan
+
+            </h3>
+
+
+            <p>
+
+                I turn the idea into a clear
+                creative direction.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="process-step">
+
+
+            <div class="process-number">
+
+                03
+
+            </div>
+
+
+            <h3>
+
+                Create
+
+            </h3>
+
+
+            <p>
+
+                Graphics, content, campaigns
+                and experiences come together.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="process-step">
+
+
+            <div class="process-number">
+
+                04
+
+            </div>
+
+
+            <h3>
+
+                Connect
+
+            </h3>
+
+
+            <p>
+
+                We put the work in front
+                of the right people.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     CONTACT
+     ========================================= -->
+
+<section
+    class="contact"
+    id="contact"
+>
+
+
+    <h2>
+
+        Let's make<br>
+
+        something meaningful.
+
+    </h2>
+
+
+    <p>
+
+        Have an organization, small business,
+        event or creative idea that needs
+        a little extra light?
+
+        <br><br>
+
+        Let's talk. ✨
+
+    </p>
+
+
+
+    <!-- ONLY CONTACT METHODS -->
+
+    <div class="contact-buttons">
+
+
+        <a
+            href="mailto:olivialee1026@yahoo.com"
+            class="button primary"
+        >
+
+            Email Me ✉
+
+        </a>
+
+
+        <a
+            href="tel:8067837788"
+            class="button secondary"
+        >
+
+            Call Me ☎
+
+        </a>
+
+
+    </div>
+
+
+
+    <div class="contact-info">
+
+
+        <span>
+
+            ✦ olivialee1026@yahoo.com
+
+        </span>
+
+
+        <span>
+
+            ✦ 806-783-7788
+
+        </span>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     FOOTER
+     ========================================= -->
+
+<footer>
+
+
+    <div class="footer-logo">
+
+        Olivia Lee ✦
+
+    </div>
+
+
+    <div>
+
+        Creative Marketing • Community • Storytelling
+
+    </div>
+
+
+    <!-- ONLY CONTACT LINKS -->
+
+    <div class="footer-contact">
+
+
+        <a href="mailto:olivialee1026@yahoo.com">
+
+            Email
+
+        </a>
+
+
+        &nbsp; • &nbsp;
+
+
+        <a href="tel:8067837788">
+
+            Call
+
+        </a>
+
+
+    </div>
+
+
+</footer>
+
+
+
+</body>
+
+</html>
